@@ -5,7 +5,7 @@ var colors = [
   'blue','yellow','red'
 ];
 //设置用户信息
-var user = {name:'admin',password:'admin',id:1,sex:'男',birthday:'3211233211231'};
+var user = {name:'admin',password:'admin',id:1,sex:'男',birthday:'3211233211231',address:'西三旗清河桥北'};
 
 http.createServer(function (req,res) {
   //设置跨域头
@@ -35,6 +35,8 @@ http.createServer(function (req,res) {
         }else{
           res.end('');
         }
+      }else if(pathname=='/productList'){
+
       }
 
 
