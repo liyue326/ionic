@@ -1,1 +1,19 @@
 /*样式可以写在这个文件内*/
+#allmap{
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.scroll{
+  min-height: 100%;
+}
+.query{
+  position: absolute;
+  width: 50%;
+  z-index: 2;
+  margin-left: 25%;
+
+
+}
