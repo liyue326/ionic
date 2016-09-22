@@ -1,0 +1,16 @@
+<ion-view view-title="Account">
+  <ion-content class="padding">
+      <div class="list">
+        <div class="item">
+          <label for="username">用户名</label>
+          <input type="text" ng-model="user.username" id="username" name="username">
+        </div>
+        <div class="item">
+          <label for="password">密码</label>
+          <input type="password" ng-model="user.password" id="password" name="password">
+        </div>
+      </div>
+      <button class="button button-full button-calm" ng-click="login(user)">登陆</button>
+      <button class="button button-full">注册</button>
+  </ion-content>
+</ion-view>
